@@ -1,0 +1,22 @@
+{
+  "name": "create-user-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "skl-utils": "./index.js"
+},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^3.0.1",
+    "crypto": "^1.0.1",
+    "inquirer": "^7.0.0",
+    "mongoose": "^5.7.0",
+    "randomstring": "^1.1.5"
+  }
+}
